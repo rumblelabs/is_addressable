@@ -1,0 +1,3 @@
+= digs
+
+Adds addressable attributes to a model.  Still in development!
