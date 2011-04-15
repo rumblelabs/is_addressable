@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Adds addressable attributes to a model}
 
   s.rubyforge_project = "digs"
+  s.add_dependency('validates_as_uk_postcode')
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

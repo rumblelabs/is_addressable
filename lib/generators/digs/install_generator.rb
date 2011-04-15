@@ -13,7 +13,6 @@ module Digs
 
     def create_files
       migration_template 'create_addresses.rb', 'db/migrate/create_addresses.rb'
-      copy_file "address.rb", "app/models/address.rb"
     end
   end
 end
