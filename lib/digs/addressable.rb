@@ -7,7 +7,7 @@ module Digs
       def is_addressable
         self.has_one :address, :as => :addressable, :dependent => :destroy 
         ADDRESS_ATTRS.each { |a| attr_accessor(a) }
-        self.before_validation :create_address
+        #self.before_validation :create_address
       end
     end
   
@@ -38,7 +38,6 @@ module Digs
         end
       end
     end
-
   end
 end
 
