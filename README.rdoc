@@ -1,3 +1,3 @@
-= digs
+= is_addressable
 
-Adds addressable attributes to a model.  Still in development!
+Adds address attributes to a model.  Still in development!
