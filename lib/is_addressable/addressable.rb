@@ -20,4 +20,4 @@ module IsAddressable
   end
 end
 
-ActiveRecord::Base.send :include, Digs::Addressable
+ActiveRecord::Base.send :include, IsAddressable::Addressable
