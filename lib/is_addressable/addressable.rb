@@ -1,4 +1,4 @@
-module Digs
+module IsAddressable
   module Addressable
     extend ActiveSupport::Concern
 

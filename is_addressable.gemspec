@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "digs/version"
+require "is_addressable/version"
 
 Gem::Specification.new do |s|
-  s.name        = "digs"
+  s.name        = "is_addressable"
   s.version     = Digs::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Phil McClure"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Adds addressable attributes to a model}
   s.description = %q{Adds addressable attributes to a model}
 
-  s.rubyforge_project = "digs"
+  s.rubyforge_project = "is_addressable"
   s.add_dependency('validates_as_uk_postcode')
 
   s.files         = `git ls-files`.split("\n")
