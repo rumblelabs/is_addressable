@@ -6,7 +6,6 @@ module IsAddressable
       def is_addressable
         self.has_one :address, :as => :addressable, :dependent => :destroy 
         accepts_nested_attributes_for :address
-        attr_accessor :street, :town_or_city, :county, :postcode, :country, :additional
       end
     end
   

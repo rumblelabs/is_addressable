@@ -1,12 +1,23 @@
 = is_addressable
 
-Adds address attributes to a model.  Still in development!
+Adds address attributes to a model.
 
 == Installation
 
-gem 'is_addressable'
-bundle
+   gem 'is_addressable'
+   bundle
 
-== Usage
+== Generate Migrations
 
-rails g
+Addresses are stored in an addresses table.  You can create this table by using the commands below.
+
+   rails g is_addressable:install
+   rake db:migrate
+
+== Use in views
+
+You can use this helper to render the address fields.
+
+   <%= form_for @model do |f| %>
+     <%= address f %>
+   <% end %>

@@ -4,7 +4,7 @@ require "is_addressable/version"
 
 Gem::Specification.new do |s|
   s.name        = "is_addressable"
-  s.version     = Digs::VERSION
+  s.version     = IsAddressable::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Phil McClure"]
   s.email       = ["pmcclure@rumblelabs.com"]
